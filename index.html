@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <title>Carlos profile</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__home">
+            <a href="#home" class="option-tag__header">bd</a>
+        </div>
+        <div class="header__burger-menu">
+            <input type="checkbox" id="burger-menu" class="burger-menu__input">
+            <label for="burger-menu" class="label">
+                <div class="burger-menu__line top"></div>
+                <div class="burger-menu__line middle"></div>
+                <div class="burger-menu__line bottom"></div>
+            </label>
+            <ul class="burger__menu--list">
+                <li class="burger__menu option">
+                    <a href="#episodios" class="option-tag">EPISODIOS</a>
+                </li>
+                <li class="burger__menu option">
+                    <a href="#nosotros" class="option-tag">NOSOTROS</a>
+                </li>
+                <li class="burger__menu option">
+                    <a href="#entrevistas" class="option-tag">ENTREVISTAS</a>
+                </li>
+                <li class="burger__menu option">
+                    <a href="#topicos" class="option-tag">TÓPICOS</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__menu-desktop">
+            <ul class="menu-desktop__list">
+                <li class="menu-desktop__list--option">
+                    <a href="#episodios" class="option-tag__desktop">EPISODIOS</a>
+                </li>
+                <li class="menu-desktop__list--option">
+                    <a href="#nosotros" class="option-tag__desktop">NOSOTROS</a>
+                </li>
+                <li class="menu-desktop__list--option">
+                    <a href="#entrevistas" class="option-tag__desktop">ENTREVISTAS</a>
+                </li>
+                <li class="menu-desktop__list--option">
+                    <a href="#topicos" class="option-tag__desktop">TÓPICOS</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main__container" id="home">
+        <div class="intro">
+            <h1 class="intro__title">Hello <span class="word">world</span> pale blue dot<span class="blue-dot">.</span></h1>
+            <p class="intro__message">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <button class="intro__button">CONOCE MÁS</button>
+        </div>
+
+        <div class="iframes" id="episodios">
+            <div class="clip-path"></div>
+            <div class="iframes__description">
+                <h2 class="iframes__title">Episodios</h2>
+                <div class="iframes__audio">
+                    <iframe 
+                        style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt?utm_source=generator&theme=0" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                    </iframe>
+                    <iframe 
+                        style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/episode/6lzD9VWNM40HAxkVz0a8NX?utm_source=generator&theme=0"
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    ></iframe>
+                    <iframe 
+                        style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/show/5JxcIaIkN8zx3Zy7yD9snv?utm_source=generator"
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    ></iframe>
+                    <iframe 
+                        style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ?utm_source=generator"
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__phone-us">
+           <img src="./assets/phone.png" alt="phone" class="phone">
+
+            <div class="about-us" id="nosotros">
+                <h2 class="intro__title">De dónde venimos</h2>
+                <p class="about-us__text">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <br>
+                <p class="about-us__text">Our planet is a lonely speck in the great enveloping cosmic dar. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </div>
+
+        <div class="images" id="entrevistas">
+            <h2 class="intro__title">Invitada/os estelares</h2>
+            <div class="images__iconic">
+                <img 
+                    src="./assets/grace-hopper.png" 
+                    alt="Grace_Hopper" 
+                    class="images__iconic-guests"
+                />
+                <img 
+                    src="./assets/Katie-Bouman.png" 
+                    alt="Katie_Bouman" 
+                    class="images__iconic-guests"
+                />
+                <img 
+                    src="./assets/Margaret_Hamilton.png" 
+                    alt="Margaret_Hamilton" 
+                    class="images__iconic-guests"
+                />
+                <img 
+                    src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" 
+                    alt="E.R.A.Univac" 
+                    class="images__iconic-guests"
+                />
+                <img 
+                    src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" 
+                    alt="Operators" 
+                    class="images__iconic-guests"
+                />
+                <img 
+                    src="./assets/susan-kare.png" 
+                    alt="Susan_Kare" 
+                    class="images__iconic-guests"
+                />
+            </div>
+        </div>
+
+        <div class="other-topic" id="topicos">
+            <h2 class="intro__title">Algunos de nuestros temas</h2>
+            <div class="other-topic__icons">
+                <div class="icons">
+                    <img src="./assets/icon1.svg" alt="Remote_work" class="icon">
+                    <p class="other-topic__message">Trabajo Remoto</p>
+                </div>
+                <div class="icons">
+                    <img src="./assets/icon2.svg" alt="Remote_work" class="icon">
+                    <p class="other-topic__message">Repensando la programación</p>
+                </div>
+                <div class="icons">
+                    <img src="./assets/icon3.svg" alt="Remote_work" class="icon">
+                    <p class="other-topic__message">Bases del código</p>
+                </div>
+                <div class="icons">
+                    <img src="./assets/icon4.svg" alt="Remote_work" class="icon">
+                    <p class="other-topic__message">Seguridad informática</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__news">
+            <div class="clip-path__2"></div>
+            <div class="news">
+                <p class="news__message">¿Querés las últimas novedades?</p>
+                <button class="intro__button">ESCUCHA LOS EPISODIOS</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">© 2019- Hello blue pale dot</p>
+        <div class="social-network">
+            <span class="iconify" data-icon="fa-brands:spotify"></span>
+            <span class="iconify" data-icon="ant-design:instagram-outlined"></span>
+            <span class="iconify" data-icon="ant-design:twitter-outlined"></span>
+            <span class="iconify" data-icon="bi:facebook"></span>
+            <span class="iconify" data-icon="cib:telegram"></span>
+        </div>
+    </footer>
+</body>
+</html>
